@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Inventors</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900|Open+Sans|Bungee+Shade">
+
+</head>
+
+<body>
+    <section class="sidebar">
+        <header>
+            <h1 id="site-title">Women </br>inventors</h1>
+            <p>Greatest Female Scientists</p>
+        </header>
+        <section class="parameters">
+            <div class="field">
+                <h3>Field</h3>
+                <input type="checkbox" name="Informatics" value="" class="field">
+                <label for="Informatics">Informatics</label>
+                <input type="checkbox" name="Mathematics" value="" class="field">
+                <label for="Mathematics">Mathematics</label>
+                <input type="checkbox" name="Engineering" value="" class="field">
+                <label for="Engineering">Engineering</label>
+            </div>
+            <div class="century">
+                <h3>Century</h3>
+                <label for="century">18</label>
+                <input type="range" name="century" min="18" max="21" value="20" data-suffix="th" class="century">
+                <label for="century">21</label>
+            </div>
+            <div class="names">
+                <h3>Browse inventors</h3>
+                <select class="inventors" name="inventors"></select>
+            </div>
+            <div class="search-inventor">
+                <h3>Search for a name</h3>
+                <input type="search" name="search" value="" class="search">
+            </div>
+        </section>
+    </section>
+    <main class="inventors"></main>
+    <footer>
+        <p>&copy; Biographies from Wikipedia</p>
+    </footer>
+
+
+</body>
+
+</html>
